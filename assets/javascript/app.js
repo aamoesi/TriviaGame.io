@@ -37,15 +37,15 @@ var questions = [{
     answer: 3
 }];
 
-$("#start").on("click", function () {
+$("#Begin").on("click", function () {
 
-    // Hide Start button
+    // Hide Begin button
     $(this).hide();
 
     // Display initial time countdown
     $("#time").html("<h2>Time Remaining: 30 Seconds</h2>" + "<br>");
 
-    // Start timer countdown
+    // Begin timer countdown
     run();
 
     // Display questions --- I still want to turn this into a reusable piece so that i don't have to repeat this section for each question
